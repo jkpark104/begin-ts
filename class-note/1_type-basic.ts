@@ -2,10 +2,10 @@
 const str = 'hello';
 
 // TS 문자열 선언
-const _str: string = 'hello';
+const _str = 'hello';
 
 // TS 숫자
-const number: number = 10;
+const number = 10;
 
 // TS 배열
 const arr: Array<number> = [1, 2, 3];
@@ -22,4 +22,4 @@ const person: { name: string; age: number } = {
 };
 
 // TS 진위값
-const show: boolean = true;
+const show = true;
