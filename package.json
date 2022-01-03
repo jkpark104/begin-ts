@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm run compile",
+    "compile":"tsc ./example/dropdown-generic.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -13,6 +14,7 @@
     "@typescript-eslint/parser": "^5.8.1",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"

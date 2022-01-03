@@ -12,7 +12,7 @@ module.exports = {
   parserOptions: {
     parser: '@typescript-eslint/parser',
   },
-  plugins: ['prettier', '@typescript-eslint'],
+  plugins: ['prettier', '@typescript-eslint', 'html'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -26,7 +26,8 @@ module.exports = {
         arrowParens: 'avoid',
       },
     ],
-    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-explicit-any': 'warn',
+    '@typescript-eslint/explicit-function-return-type': 'warn',
     'prefer-const': 'off',
   },
 };
